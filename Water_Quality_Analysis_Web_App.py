@@ -45,7 +45,7 @@ def main():
     water_potability = ''
     
     #getting input data from the user
-    if st.button('Predicted price of Gold : '):
+    if st.button('Predicted POTABILITY of Water : '):
         water_potability = water_quality_analyser([ph,Hardness,Solids,Chloramines,Sulfate,Conductivity,Organic_carbon,Trihalomethanes,Turbidity])
         
     st.success(water_potability)
