@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #loading the saved model
-loaded_model = pickle.load(open("D:\Supervised Machine Learning with Python (Streamlit Deployed)\Water Quality Analysis\Trained_model.sav",'rb'))
+loaded_model = pickle.load(open("Trained_model.sav",'rb'))
 
 #creating a function for prediction
 def water_quality_analyser(input_data):
